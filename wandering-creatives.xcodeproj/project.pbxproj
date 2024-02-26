@@ -11,6 +11,13 @@
 		263E276A2B0E53C600DD869A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263E27692B0E53C600DD869A /* ContentView.swift */; };
 		263E276C2B0E53C700DD869A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263E276B2B0E53C700DD869A /* Assets.xcassets */; };
 		263E276F2B0E53C700DD869A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263E276E2B0E53C700DD869A /* Preview Assets.xcassets */; };
+		263E27762B0E552C00DD869A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263E27752B0E552C00DD869A /* LoginView.swift */; };
+		263E27782B0E55AB00DD869A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263E27772B0E55AB00DD869A /* HomeView.swift */; };
+		263E277A2B0E661400DD869A /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263E27792B0E661400DD869A /* AboutView.swift */; };
+		263E277C2B0E6D3900DD869A /* JobsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263E277B2B0E6D3900DD869A /* JobsView.swift */; };
+		263E277E2B0E6F7700DD869A /* jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263E277D2B0E6F7700DD869A /* jobs.swift */; };
+		263E27802B0E74F200DD869A /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263E277F2B0E74F200DD869A /* PortfolioView.swift */; };
+		263E27822B0E82D300DD869A /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263E27812B0E82D300DD869A /* CoursesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		263E27692B0E53C600DD869A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		263E276B2B0E53C700DD869A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		263E276E2B0E53C700DD869A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		263E27752B0E552C00DD869A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		263E27772B0E55AB00DD869A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		263E27792B0E661400DD869A /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		263E277B2B0E6D3900DD869A /* JobsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsView.swift; sourceTree = "<group>"; };
+		263E277D2B0E6F7700DD869A /* jobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobs.swift; sourceTree = "<group>"; };
+		263E277F2B0E74F200DD869A /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		263E27812B0E82D300DD869A /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				263E27672B0E53C600DD869A /* wandering_creativesApp.swift */,
+				263E27752B0E552C00DD869A /* LoginView.swift */,
 				263E27692B0E53C600DD869A /* ContentView.swift */,
+				263E27812B0E82D300DD869A /* CoursesView.swift */,
+				263E277F2B0E74F200DD869A /* PortfolioView.swift */,
+				263E277B2B0E6D3900DD869A /* JobsView.swift */,
+				263E27792B0E661400DD869A /* AboutView.swift */,
+				263E27772B0E55AB00DD869A /* HomeView.swift */,
+				263E277D2B0E6F7700DD869A /* jobs.swift */,
 				263E276B2B0E53C700DD869A /* Assets.xcassets */,
 				263E276D2B0E53C700DD869A /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				263E27782B0E55AB00DD869A /* HomeView.swift in Sources */,
+				263E27762B0E552C00DD869A /* LoginView.swift in Sources */,
+				263E277C2B0E6D3900DD869A /* JobsView.swift in Sources */,
 				263E276A2B0E53C600DD869A /* ContentView.swift in Sources */,
 				263E27682B0E53C600DD869A /* wandering_creativesApp.swift in Sources */,
+				263E277A2B0E661400DD869A /* AboutView.swift in Sources */,
+				263E277E2B0E6F7700DD869A /* jobs.swift in Sources */,
+				263E27802B0E74F200DD869A /* PortfolioView.swift in Sources */,
+				263E27822B0E82D300DD869A /* CoursesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
